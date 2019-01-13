@@ -1,5 +1,11 @@
-# Embrace-Bot
-Vaaamo $name,  :punch::grin:
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+
+bot.login('NTMzOTA4ODA4NjE1OTg1MTYz.Dxx67w.-33V40_6RceijG34M2Gp7hKQ2ro');
+
+bot.on('message' , message => { 
+    if (message.content.startsWith('!ajuda')){
+        message.channel.send('Vaaamo $name,  :punch::grin:
 
 Pra começarmos com o pé direito, queremos te dar as boas-vindas ao Discord oficial da Embrace Brazil  e te passar as explicações básicas sobre as regras do nosso espaço… Jogo rápido! 
 
@@ -11,4 +17,6 @@ Sim, depois não vem falar que não avisamos! O sabre de luz vai te decapitar se
 
 Assim nós teremos discussões produtivas e você poderá sempre se sentir em casa… :punch:
 
-É só chegar aqui no canal #liga-informacoes (na lateral esquerda), a leitura não demora 1min sequer!
+É só chegar aqui no canal #liga-informacoes (na lateral esquerda), a leitura não demora 1min sequer!');
+    }
+});
