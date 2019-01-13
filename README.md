@@ -1,5 +1,5 @@
 # Embrace-Bot
-Vaaamo $name,  :punch::skin-tone-2::grin:
+Vaaamo $name,  :punch::grin:
 
 Pra começarmos com o pé direito, queremos te dar as boas-vindas ao Discord oficial da Embrace Brazil  e te passar as explicações básicas sobre as regras do nosso espaço… Jogo rápido! 
 
